@@ -125,6 +125,10 @@
     top: 7rem;
 }
 
+.heart-rate>img {
+    width: 2rem;
+}
+
 .heart-rate>:nth-child(2) {
     color: var(--gray);
 }
@@ -132,4 +136,11 @@
 .heart-rate>:nth-child(3) {
     color: #fff;
     font-size: 1.5rem;
+}
+
+.hero-image {
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
 }
