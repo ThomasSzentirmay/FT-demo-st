@@ -9,4 +9,24 @@
     display: flex;
     gap: 5rem;
     font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.program-categories {
+    display: flex;
+    gap: 1rem;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: #fff;
+    justify-content: space-between;
 }
