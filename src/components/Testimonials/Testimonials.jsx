@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './Testimonials.css';
-import testimonialData from '../../data/testimonialsData';
+import {testimonialsData} from '../../data/testimonialsData';
 import leftArrow from '../../assets/leftArrow.png';
 import rightArrow from '../../assets/rightArrow.png';
 
 const Testimonials = () => {
     const [selected, setSelected] = useState(0);
-    const tLength = testimonialData.length;
+    const tLength = testimonialsData.length;
 
     return (
         <div className="Testimonials">
@@ -15,20 +15,20 @@ const Testimonials = () => {
                 <span className='stroke-text'>What they</span>
                 <span>say about us</span>
                 <span>
-                    {testimonialData[selected].review}
+                    {testimonialsData[selected].review}
                 </span>
                 <span>
                     <span style={{color: 'var(--orange)'}}>
-                    {testimonialData[selected].name}
+                    {testimonialsData[selected].name}
                     </span>{""}
-                    - {testimonialData[selected].status}
+                    - {testimonialsData[selected].status}
                 </span>
             </div>
 
             <div className="right-t">
                 <div></div>
                 <div></div>
-                <img src={testimonialData[selected].image} alt="" />
+                <img src={testimonialsData[selected].image} alt="" />
 
                 <div className="arrows">
                     <img src={leftArrow} alt="" />

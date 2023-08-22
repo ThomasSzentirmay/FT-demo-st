@@ -59,7 +59,7 @@
     position: absolute;
     width: 17rem;
     height: 19rem;
-    right: 4rem;
+    right: 7rem;
     top: 4rem;
-    background-color: var(--planCard);
+    background: var(--planCard);
 }
