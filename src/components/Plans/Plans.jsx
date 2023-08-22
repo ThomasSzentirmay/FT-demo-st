@@ -5,9 +5,9 @@ const Plans = () => {
     return (
         <div className="plans-container">
             <div className="programs-header" style={{gap: '2rem'}}>
-                <span>READY TO START</span>
+                <span className='stroke-text'>READY TO START</span>
                 <span>YOUR JOURNEY</span>
-                <span>NOW WITH US</span>
+                <span className='stroke-text'>NOW WITH US</span>
             </div>
         </div>
     )
