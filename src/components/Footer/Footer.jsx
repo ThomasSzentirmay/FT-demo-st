@@ -10,12 +10,14 @@ const Footer = () => {
         <div className="Footer-container">
             <hr />
             <div className="footer">
-                <img src={Github} alt="" />
-                <img src={Instagram} alt="" />
-                <img src={LinkedIn} alt="" />
-            </div>
-            <div className="logo-f">
-                <img src={Logo} alt="" />
+                <div className="socials-links">
+                    <img src={Github} alt="" />
+                    <img src={Instagram} alt="" />
+                    <img src={LinkedIn} alt="" />
+                </div>
+                <div className="logo-f">
+                    <img src={Logo} alt="" />
+                </div>
             </div>
         </div>
     )
