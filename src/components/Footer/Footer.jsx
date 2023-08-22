@@ -1,21 +1,21 @@
 import React from 'react';
 import './Footer.css';
 import Github from '../../assets/github.png';
-import Instagram from '../../assets/Instagram.png';
-import LinkedIn from '../../assets/LinkedIn.png';
-import Logo from '../../assets/Logo.png';
+import Instagram from '../../assets/instagram.png';
+import LinkedIn from '../../assets/linkedin.png';
+import Logo from '../../assets/logo.png';
 
 const Footer = () => {
     return (
         <div className="Footer-container">
             <hr />
             <div className="footer">
-                <div className="socials-links">
-                    <img src={Github} alt="" />
-                    <img src={Instagram} alt="" />
-                    <img src={LinkedIn} alt="" />
+                <div className="social-links">
+                    <img className='logo-img' src={Github} alt="" />
+                    <img className='logo-img' src={Instagram} alt="" />
+                    <img className='logo-img' src={LinkedIn} alt="" />
                 </div>
-                <div className="logo-f">
+                <div className="real-logo">
                     <img src={Logo} alt="" />
                 </div>
             </div>
