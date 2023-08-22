@@ -20,8 +20,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="vlur blur-f-l"></div>
-            <div className="vlur blur-f-2"></div>
+            <div className="blur blur-f-l"></div>
+            <div className="blur blur-f-2"></div>
         </div>
     )
 }
