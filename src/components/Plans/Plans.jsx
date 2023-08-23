@@ -37,7 +37,7 @@ const Plans = () => {
 
                         <div>
                             <span>See more benefits -></span>
-                            <button className="btn">Join now</button>
+                            <button className="btn benefits-btn">Join now</button>
                         </div>
                     </div>
                     );
